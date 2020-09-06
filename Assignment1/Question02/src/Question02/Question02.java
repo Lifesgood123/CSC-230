@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 public class Question02 {
+/**
+* @param args The command line arguments
+*/
   public static void main(String[] args){
     // Take in single postional argument limit
     int limit = Integer.parseInt(args[0]);
@@ -12,6 +15,7 @@ public class Question02 {
       System.out.print(i + ", ");
     }
   }
+
   /**
    * Calculates all primes to a non-inclusive limit
    * @param limit - Upper limit of primes
